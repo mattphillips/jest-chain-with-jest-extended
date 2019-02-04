@@ -1,6 +1,6 @@
-# jest-chain issue: 3
+# jest-chain-with-jest-extended
 
-https://github.com/mattphillips/jest-chain/issues/3
+Example project using [`jest-chain`](https://www.github.com/mattphillips/jest-chain) with [`jest-extended`](https://www.github.com/jest-community/jest-extended). You shouldn't get any type warnings when running jest and in `vscode`.
 
 To run:
 

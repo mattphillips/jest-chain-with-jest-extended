@@ -1,20 +1,27 @@
 {
   "name": "jest-chain-extended",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^23.3.13",
     "jest": "^23.6.0",
-    "jest-chain": "^1.0.3",
-    "jest-extended": "^0.11.0"
+    "jest-chain": "^1.1.2",
+    "jest-extended": "^0.11.1",
+    "ts-jest": "^23.10.5"
   },
   "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
     "setupTestFrameworkScriptFile": "./setup.js"
+  },
+  "dependencies": {
+    "typescript": "^3.3.1"
   }
 }
